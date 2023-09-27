@@ -1,0 +1,26 @@
+body 
+{
+    max-width: 90%;
+    margin: 5px;
+    background-color: #28EEF0;
+    background-image: url(chifar.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote
+{
+    width: 50% ; 
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: grey;
+    text-size-adjust: 160%;
+    border-left: 3px firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+

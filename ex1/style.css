@@ -1,0 +1,81 @@
+body 
+{
+    max-width: 90%;
+    margin: 5px;
+    background-color: #28EEF0;
+    background-image: url(chifar.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    text-align: center;
+}
+
+#quot
+{
+    width: 50% ; 
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: grey;
+    text-size-adjust: 160%;
+    border-left: 3px firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.yel
+{
+    background-color: yellow;
+}
+.good
+{
+    color: green;
+}
+.bad
+{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:visited
+{
+    color: blueviolet;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+
+tr:nth-child(even){
+    background-color: green;
+}
+tr:nth-child(odd)
+{
+    background-color: grey;
+}
+td
+{
+    border: 1pxsolid;
+}
+
+ol, table 
+{
+    margin: auto;
+}
+#third , #space
+{
+    display: flex;
+
+}
+#ocf, #par
+{
+    flex: 0 0 auto;
+}
+#quote, #mars
+{
+    flex: 1;
+}
